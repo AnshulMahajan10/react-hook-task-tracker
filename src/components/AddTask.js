@@ -18,8 +18,8 @@ const AddTask = (props) => {
         props.onAdd({ text, day, reminder });
 
         setText('');
-        setDay();
-        setReminder();
+        setDay('');
+        setReminder(false);
 
     }
 
